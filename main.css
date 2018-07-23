@@ -1,0 +1,21 @@
+nav ul li {
+  background-color: #b1d5e2;
+  display: inline-block;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left:10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+  display: inline-block;
+  float: left;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.branding {
+  border-radius: 50px;
+}
