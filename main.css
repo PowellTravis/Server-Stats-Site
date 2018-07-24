@@ -2,20 +2,33 @@ nav ul li {
   background-color: #b1d5e2;
   display: inline-block;
   border-radius: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-right: 10px;
   padding-left:10px;
   font-family: 'Raleway', sans-serif;
 }
 
 .nav {
+  top: 0;
+  left: 0
   display: inline-block;
-  float: left;
+  /* float: left; */
+  margin-top: 0px;
   margin-left: 0px;
   padding-left: 0px;
+  height: 50px;
+  background-color: #2bb1ff;
+  width: 100%vw;
 }
 
 .branding {
   border-radius: 50px;
+}
+
+.bo1 {
+  background-image: url('Images/background1.png');
+  margin-top: 0px;
+  color: white;
+  height: 100%vh;
 }
