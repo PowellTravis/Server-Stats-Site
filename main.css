@@ -1,3 +1,7 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 nav ul li {
   background-color: #b1d5e2;
   display: inline-block;
@@ -7,7 +11,7 @@ nav ul li {
   padding-right: 10px;
   padding-left:10px;
   font-family: 'Raleway', sans-serif;
-  margin-left:
+  margin-left: 5px;
 }
 
 .nav {
@@ -29,12 +33,12 @@ nav ul li {
 }
 
 .bo1 {
-  background-image: url('Images/background1.png');
+  /* background-image: url('Images/background1.png'); */
+  background-color: #54aece;
   margin-top: 0px;
   color: white;
   height: 100%vh;
   background-filter: blur(1.5px);
-  font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
 /* Grid Setup */
@@ -81,4 +85,18 @@ nav ul li {
 }
 .botabout {
   grid-area: botabout;
+}
+
+.image5px {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.h1i {
+  padding-left: 30%;
+  font-size: 30px;
+}
+
+.bo1 .grid .infoview p {
+  margin-left: 5px;
 }
