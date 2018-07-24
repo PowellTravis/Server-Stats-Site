@@ -100,3 +100,19 @@ nav ul li {
 .bo1 .grid .infoview p {
   margin-left: 5px;
 }
+
+/* Footer Setup */
+
+footer {
+  background-color: #7294a0;
+  height: 25%vh;
+  margin: auto;
+}
+
+
+.footer {
+  display: inline-block;
+  text-align: center;
+  float: center;
+  margin: auto;
+}
