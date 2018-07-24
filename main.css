@@ -35,15 +35,50 @@ nav ul li {
   height: 100%vh;
   background-filter: blur(1.5px);
   font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+/* Grid Setup */
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "infoview spacing"
+  "spacing1 botabout";
 }
 
-.grid {
-  display: grid | inline-grid;
-  grid-template-columns: auto auto;
-  grid-template-areas:
-  "infoview ."
+.spacing {
+  grid-area: spacing;
+  background-color: white;
+  filter: blur(px);
+  height: 400px;
+  border-left-width: medium;
+  border-color: black;
+}
+
+.spacing1 {
+  grid-area: spacing1;
+  background-color: white;
+  height: 400px;
+  border-left-width: medium;
+  border-color: black;
+}
+
+.v1 {
+  border-left: 2px solid black;
+  height: 400px;
+  float: left;
+}
+
+.v2 {
+  border-right: 2px solid black;
+  height: 400px;
+  float: right;
 }
 
 .infoview {
   grid-area: infoview;
+  background-color:;
+}
+.botabout {
+  grid-area: botabout;
 }
