@@ -127,10 +127,56 @@ footer {
 }
 
 .contact {
-  
+
 }
 
 
 .social-link:hover {
   background-color: #758f99;
+}
+
+/* Form Elements */
+
+.form {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.form-border {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.form-name {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.form-email {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.form-email-input {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.form-text {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.form-file {
+
+}
+
+.form-input-file {
+  display: block;
 }
