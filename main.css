@@ -137,11 +137,22 @@ footer {
 
 /* Form Elements */
 
+.form-form {
+  background-color: #579fba;
+}
+
 .form {
+  margin-top: 50px;
   border-width: 2px;
   border-style: solid;
   border-color: black;
   border-radius: 20px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.form h1 {
+  text-align: center;
 }
 
 .form-border {
@@ -150,33 +161,58 @@ footer {
   border-color: black;
   border-radius: 20px;
   width: 200px;
+  background-color: #afcbd6;
 }
 
 .form-name {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 20px;
 }
 
 .form-email {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 20px;
 }
 
 .form-email-input {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 20px;
 }
 
 .form-text {
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 20px;
   width: 400px;
 }
 
 .form-file {
-
+  margin-left: 20px;
+  margin-top: 15px;
 }
 
 .form-input-file {
-  display: block;
+
+}
+
+.form-skype {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.form-Submit-Button {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 5px 10px 5.5px !important;
+  font-size: 21px !important;
+  background-color: #afcbd6;
+  font-weight: bold;
+  color: black;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border: 1px solid #afcbd6;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
