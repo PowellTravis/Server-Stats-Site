@@ -59,17 +59,10 @@ nav ul li {
   display: none;
 }
 
-.spacing:hover {
-  display: none
-}
-
 .spacingg {
   display: none;
 }
 
-.spacingg:hover {
-  display: none;
-}
 
 .v1 {
   border-left: 2px solid black;
@@ -309,14 +302,13 @@ footer {
     background-image: url(Images/background1.png);
     filter: blur(8px);
     height: 400px;
-    display: show;
+    display: block;
   }
 
   .spacing:hover {
     background-image: url(Images/background1.png);
     filter: blur(0px);
     height: 400px;
-    display: block;
   }
 
   .spacingg {
@@ -324,6 +316,7 @@ footer {
     background-image: url(Images/background1.png);
     filter: blur(8px);
     height: 400px;
+    display: block;
   }
 
   .spacingg:hover {
