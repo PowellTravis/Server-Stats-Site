@@ -122,6 +122,13 @@ footer {
   margin: 0;
 }
 
+.privacy {
+  background-color: #7294a0;
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
+}
+
 
 .social-link {
   padding: 0px 5px;
