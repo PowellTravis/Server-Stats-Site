@@ -20,6 +20,17 @@ headers: {
 .catch(error => console.error('Error:', error))
 .then(response => console.log('Success:', response));
 
+const hero = {
+  name: 'R2-D2',
+  apearsIn: 'Rise of The Sith'
+}
+
+{
+  hero {
+    name
+    appearsIn
+  }
+}
 
 $(document).ready(function(){
 
