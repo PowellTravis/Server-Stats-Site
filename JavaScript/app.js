@@ -1,4 +1,5 @@
 console.log("Hello World!");
+import gql from 'graphql-tag';
 
 function onSuccess(res){
   console.log('AJAX: ' + res.message + ',' + res.status);
@@ -17,19 +18,36 @@ headers: {
   'Content-Type': 'text/plain'
   }
 
-}).then(res => res.json())
-.catch(error => console.error('Error:', error))
-.then(response => console.log('What the HELL GraphQL!?:', response.data["0"].images.standard_resolution));
+}).then(res => res.json()).catch(error => console.error('Error:', error))
+.then(response => console.log('What the HELL GraphQL!?:', response));
 
 //
 // console.log(response);
 //
 // var response = res.json();
 //
-// $(document).ready(function(){
-//
-//
-//
-//   $('.instafeed').attr('src', response.data["0"].images.standard_resolution.url );
-//
-// }) //Close document.ready
+$(document).ready(function(){
+fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + token, {
+  method: 'GET',
+  type Query: {
+    "data": [{
+      "created_time": "",
+        "images": {
+            "standard_resolution": {
+                "url": "",
+                "width": 306,
+                "height": 306,
+            },
+    }
+  }]
+}
+})
+  // $('.instafeed').attr('src', response.data["0"].images.standard_resolution.url );
+
+}); //Close document.ready
+
+type queryObjects {
+  me {
+    name
+  }
+}
